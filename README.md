@@ -130,43 +130,31 @@ assign cout=((a&b)|(b&cin)|(a&cin));
 endmodule
 ```
 ## OUTPUT:
+
 ### Logic Gates:
-
 #### AND GATE
-![Screenshot 2024-02-17 142507](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/a8758c46-a269-4f00-9ef7-44b8e171ce3f)
-
+![Screenshot 2024-02-17 142517](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/2208a23a-e3cd-4fac-b380-ba2dbf6e6141)
 #### OR GATE
-![Screenshot 2024-02-17 143056](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/0d4d8b4c-a494-46cb-9114-346a40fe1354)
-
+![Screenshot 2024-02-17 143104](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/e408ed50-1cc1-40cd-9ba9-e96de495114b)
 #### NAND GATE
-![Screenshot 2024-02-17 143955](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/72109513-6be1-451a-aaa6-e31a5430f0ec)
-
+![Screenshot 2024-02-17 144003](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/2213a916-5ef0-4647-aa01-65264823e97f)
 #### NOR GATE
-![NORO](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/d2685da3-c7ca-49b1-a32c-eda20a2d971e)
-
+![Screenshot 2024-03-08 192907](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/3bedc92a-c206-49ab-9d98-672b0e89a399)
 #### XOR GATE
-![Screenshot 2024-02-17 144406](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/27cd4c0e-03db-4b45-a963-14dd240cf939)
-
+![Screenshot 2024-02-17 144411](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/c043b5b6-dbfb-44cd-8138-85173f1f8544)
 #### XNOR GATE
-![Screenshot 2024-02-17 144811](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/e63c4944-5778-4e13-b26d-5ed5bda23239)
-
+![Screenshot 2024-02-17 144818](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/cc4bb633-d330-42ea-8247-97bfb4b383b0)
 #### NOT GATE
-![Screenshot 2024-02-17 145135](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/eee7f73b-0657-4b01-9ea5-7e44a9c97cb0)
-
+![Screenshot 2024-02-17 145142](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/3c7c8fb5-3ab2-43d4-9ac6-121548299a8b)
 ### Half Adder
-![Screenshot 2024-02-17 134312](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/917254df-914c-4be1-8933-f56982573f05)
-
+![Screenshot 2024-02-17 134320](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/8251c978-56b6-4c86-9d0f-de057f5664ec)
 ### Half Subtractor
-![Screenshot 2024-02-17 140409](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/f09eeb8d-022c-4dfd-a7f5-2b645f60d61c)
-
+![Screenshot 2024-02-17 140420](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/087e940b-db2a-4c33-a302-a3cf30a1f4b6)
 ### Full Adder
-![Screenshot 2024-02-17 141614](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/b41a4328-9884-4af0-91be-240cf480c9a8)
-
+![Screenshot 2024-02-17 141627](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/90529bb3-c1dc-4ae2-8b1f-4b94e6afd20a)
 ### Full Subtractor
-![FSUB](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/f3dbd397-7ffc-430f-910e-f9e3a9c67c4d)
-
+![FSUB](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/3597c920-691b-424c-937a-42720ff66df0)
 ### 8 Bit Ripple Carry Adder 
-
 
 ## RESULT:
 Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Xilinx ISE.
