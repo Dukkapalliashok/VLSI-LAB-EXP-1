@@ -155,6 +155,7 @@ endmodule
 ### Full Subtractor
 ![FSUB](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/3597c920-691b-424c-937a-42720ff66df0)
 ### 8 Bit Ripple Carry Adder 
+![rca](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/e90aa804-085f-489b-8ebc-eda7686ec7b3)
 
 ## RESULT:
 Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Xilinx ISE.
