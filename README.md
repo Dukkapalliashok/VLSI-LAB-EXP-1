@@ -1,20 +1,25 @@
-# VLSI-LAB-EXPERIMENTS
-## AIM:
-To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
+**SIMULATION AND IMPLEMENTATION OF LOGIC GATES , ADDER AND SUBTRACTOR**
+**AIM:**
 
-## APPARATUS REQUIRED:
-Xilinx 14.7 Spartan6 FPGA
+To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado 2023.2.
 
-## PROCEDURE: 
+**APPARATUS REQUIRED:**
+
+Vivado 2023.2
+
+**PROCEDURE:**
+
 STEP:1 Start the Xilinx navigator, Select and Name the New project. STEP:2 Select the device family, device, package and speed. STEP:3 Select new source in the New Project and select Verilog Module as the Source type. STEP:4 Type the File Name and Click Next and then finish button. Type the code and save it. STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax. STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table. STEP:7 Select the Implementation in the Sources Window and select the required file in the Processes Window. STEP:8 Select Check Syntax from the Synthesize XST Process. Double Click in the Floorplan Area/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. STEP:9 In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu. STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here. STEP:12 Load the Bit file into the SPARTAN 6 FPGA STEP:11 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 
-## Logic Gates:
+**LOGIC GATES:**
 
-### Logic Diagram :
+**LOGIC DIAGRAM:**
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
-### Verilog Code:
+**VERILOG CODE:**
+
 ```
 module logicgate (a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;  
@@ -28,17 +33,19 @@ xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
 ```
-### Output:
+**OUTPUT:**
+
 ![LOGIC GATES](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/3c433290-2fc2-407d-90e4-1e1c24758fb0)
 
 
-## Half Adder:
+**HALF ADDER:**
 
-### Logic Diagram :
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
-### Verilog Code:
+**VERILOG CODE:**
+
 ```
 module halfadder(a,b,sum,carry);
 input a,b;
@@ -47,16 +54,16 @@ xor g1(sum,a,b);
 and g2(carry,a,b);
 endmodule
 ```
-### Output:
+**OUTPUT:**
 ![Screenshot 2024-02-17 134320](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/8251c978-56b6-4c86-9d0f-de057f5664ec)
 
-## Full adder:
+**FULL ADDER:**
 
-### Logic Diagram:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
-### Verilog Code:
+**VERILOG CODE:**
 ```
 module fadd(a,b,c,sum,carry);
 input a,b,c;
@@ -69,17 +76,17 @@ and g4(w3,w1,c);
 or g5(carry,w3,w2);
 endmodule
 ```
-### Output:
+**OUTPUT:**
 
 ![Screenshot 2024-02-17 141627](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/90529bb3-c1dc-4ae2-8b1f-4b94e6afd20a)
 
-## Half Subtractor:
+**HALF SUBTRACTOR:**
 
-### Logic Diagram:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
-### Verilog Code:
+**VERILOG CODE:**
 
 ```
 module halfsubtractor(a,b,diff,borrow);
@@ -90,17 +97,17 @@ and g2(borrow,~a,b);
 endmodule
 ```
 
-### Output:
+**OUTPUT:**
 
 ![Screenshot 2024-02-17 140420](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/087e940b-db2a-4c33-a302-a3cf30a1f4b6)
 
-## Full Subtractor:
+**FULL SUBTARCTOR:**
 
-### Logic Diagram:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
 
-### Verilog Code:
+**VERILOG CODE:**
 
 ```
 module fs(a,b,bin,d,bout);
@@ -115,17 +122,17 @@ or g5(bout,w2,w3);
 endmodule
 ```
 
-### Output:
+**OUTPUT:**
 
 ![FSUB](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/3597c920-691b-424c-937a-42720ff66df0)
 
-## 8 Bit Ripple Carry Adder:
+**8 BIT RIPPLE CARRY ADDER:**
 
-### Logic Diagram:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
 
-### Verilog Code:
+**VERILOG CODE:**
 
 ```
 module ripplemod(a, b, cin, sum, cout);
@@ -155,12 +162,12 @@ assign cout=((a&b)|(b&cin)|(a&cin));
 endmodule
 ```
 
-### Output:
+**OUTPUT:**
 
 ![rca](https://github.com/Dhinesh0024/VLSI-LAB-EXP-1/assets/160568927/e90aa804-085f-489b-8ebc-eda7686ec7b3)
 
 
-## RESULT:
-Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Xilinx ISE.
+**RESULT:**
+Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Vivado 2023.2
 
 
