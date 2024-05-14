@@ -179,6 +179,7 @@ endmodule
 
 
 **RESULT:**
+
 Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Vivado 2023.2
 
 
